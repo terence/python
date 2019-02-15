@@ -1,6 +1,6 @@
 #!/usr/local/bin/python3
 
-print ("Hello World")
+print ("XML processing in master")
 
 import sys
 print (sys.path)
