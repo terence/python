@@ -1,6 +1,6 @@
 #!/usr/local/bin/python3
 
-print ("Class Inheritance")
+print ("Class Inheritance for dev2")
 
 import sys
 print (sys.path)
