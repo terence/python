@@ -1,4 +1,6 @@
 #!/usr/local/bin/python3
+# Tutorial https://www.nltk.org/book/ch01.html
+
 
 print ("Scipy Processing")
 
@@ -8,6 +10,8 @@ print (sys.path)
 import nltk
 from nltk.tokenize import sent_tokenize, word_tokenize
 from nltk.corpus import stopwords
+from nltk.book import *
+import matplotlib
 
 # nltk.download()
 
@@ -36,6 +40,10 @@ print(len(stopWords))
 print(stopWords)
 
 
+text1.similar("monstrous")
+text2.similar("monstrous")
+
+text4.dispersion_plot(["citizens", "democracy", "freedom", "duties", "America"])
 
 
 
