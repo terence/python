@@ -5,6 +5,5 @@
 - ./run.sh
   - Run scripts supporting text preparation, plotting etc...
 
-## Dockerfile
-- Leveraging Docker image
-- docker build -t mypy .
+## Docker
+- Dockerized here: https://github.com/terence/dockerpy
