@@ -9,7 +9,16 @@ def functionthis(str):
 	print(str)
 	return;
 
-functionthis("funtion printed string")
+
+def calc_total(a,b):
+  return a+b
+
+
+def calc_multiply(a,b):
+  return a*b
+
+
+functionthis("function printed string")
 
 
 
